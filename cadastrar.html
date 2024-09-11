@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit Cadastrar</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+</head>
+<body>
+    <div class="container">
+        <div id="loader">
+            <div id="spinner">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="assets/img/orbit.png" alt="Orbit Logo">
+        </div>
+        <p class="description">
+            orbit é uma rede social onde englobamos campeonatos de e-sports, notícias e trocas sem fins monetários
+        </p>
+        <form>
+            <div class="form">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                <input type="password" name="senhacon" id="senhacon" placeholder="Confirme Sua Senha" required>
+               
+                <div class="buttons">
+                    <a href="index.php"><button type="button" class="login">Login</button></a>
+                    <button type = "submit" class="cadastrar">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- importacao sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="assets/js/usuario.js"></script>    
+</body>
+</html>
